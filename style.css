@@ -1,3 +1,4 @@
+/* Nav bar */
 nav{
     display:flex;
     justify-content: space-between;
@@ -9,7 +10,6 @@ nav{
     top: 0px;
     background-color: white;
 }
-
 nav>ol{
     list-style-type: none;
     display: flex;
@@ -58,7 +58,6 @@ nav>ol{
 }
 .link:hover .sublists{
     display: block;
-
 }
 .numbers{
     list-style-type: none;
@@ -71,18 +70,17 @@ nav>ol{
 .numbers b:hover{
     color: #00ACED;
 }
-
+/* Get UPI statement in Excel/PDF */
 .GetUPIStatement{
     display: flex;
     justify-content: center;
     margin: 15px 0px 28px 0px;
 }
-
+/* Container1-TwoCards div at starting */
 .container1{
     display: flex;
     gap: 13px;
     justify-content: center;
-    /* padding: 5px; */
 }
 .subcontainer1{
     border-radius: 15px;
@@ -117,24 +115,25 @@ nav>ol{
 p{
     margin: 1px;
 }
-.recharge_now{
-    border-radius: 20px;
-    overflow: hidden;
-    padding: 15px 15px 30px 15px;
-}
+/* TwoCards div-Recharge Now and Pay Now */
 .twocards{
     display: flex;
     justify-content: center;
     margin: 30px 30px 0px 30px;
 }
-.container2{
+.recharge_now{
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 15px 15px 30px 15px;
+}
+/* Three cards div */
+.threeCardsDiv{
     display: flex;
     height: 180px;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
-
 .three_cards{
     width: 370px;
     height: 130px;
@@ -145,9 +144,7 @@ p{
     border-radius: 15px;
     overflow: hidden;
 }
-
 /* TripServiceSelection */
-
 .tripselection{
     padding-bottom: 10px;
     background-color: #E8F8FD;
@@ -165,12 +162,10 @@ p{
 }
 .subtripselection2cards{
     padding: 10px;
-
 }
 .tripsele_logo{
     width: 50px;
 }
-
 .tripdetails{
     background-color:#FFFFFF;
     border-radius: 10px;
@@ -189,6 +184,7 @@ p{
     margin-top: 0px;
     margin-bottom: 0px;
 }
+/* Trip Details row */
 .tripdetailsrow{
     display: flex;
     align-items: center;
@@ -275,6 +271,7 @@ p{
     cursor: pointer;
     background: #00BAF2;
 }
+/* Save Fares */
  .saveFares{
     display: flex;
     gap: 15px;
@@ -309,15 +306,13 @@ p{
  .rupeeicon{
     font-size: 0.6rem;
  }
-
-
+ /* Download and Payment Success */
  .downloadAndPaySuccess{
     display: flex;
     border-radius: 12px;
     margin: 10px 35px 10px 35px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
     gap: 10px;
-
 }
 .downloadfromstore{
     margin: 15px;
@@ -343,8 +338,7 @@ p{
     width: 550px;
     height: 550px;
 }
-
-
+/* Customer Support */
 .logoin24x7{
     width: 60px;
 }
@@ -380,17 +374,14 @@ p{
     background-color: #0094FB;
     color: white;
 }
-
-
+/* Credit and Insurance Section */
 .creditandinsurance{
     display: flex;
     justify-content: center;
     gap: 35px;
 }
 .creditandinsurancediv1{
-    /* margin-left: 15px; */
     border-radius: 18px;
-    /* padding-left: 35px; */
     padding: 45px 22px 25px 45px ;
     background: linear-gradient(to top,white,#E3F1FE);
 }
@@ -414,7 +405,6 @@ p{
     display: flex;
     padding: 10px 0px;
     gap: 15px;
-    
 }
 .applynowbtn{
     padding: 8px 12px 8px 12px;
@@ -426,8 +416,7 @@ p{
 .creditCardsimage{
     padding-top: 15px;
 }
-
-
+/* Investment Journey */
 .totalInvestmentJourney{
     display:flex;
     border-radius: 18px;
@@ -470,10 +459,7 @@ p{
 .mobileInPaytmmoneyimage{
     width: 550px;
     height: 550px;
-    /* left: 5px;
-    top: 5px; */
 }
-
 .paytmforbusinessdiv{
     display: flex;
     margin: 10px 30px 10px 35px;
@@ -483,9 +469,7 @@ p{
 }
 .paytmforbusinessdivcard1{
     padding: 110px 80px 90px 92px;
-    /* margin-right: 5px; */
 }
-
 .paytmforbusinessimg{
     width: 80px;
     height: 55px;
@@ -513,11 +497,10 @@ p{
     margin: 0px;
     padding-left: 5.9px;
 }
-
+/* Footer */
 .top_footer{
     padding: 10px 35px;
 }
-
 .menu_item{
     display: flex;
     align-items: end;
@@ -544,7 +527,6 @@ p{
     justify-content: space-between;
     align-items: center;
     padding: 40px 2px 30px 2px;
-    
 }
 .bottom_left{
     color: rgb(104, 98, 98);
@@ -572,12 +554,6 @@ p{
     height: 13px;
     background-color: #002970;
 }
-
-/* @media(min-width:500px) and (max-width:900px){
-    nav{
-        display: inline-block;
-    }
-} */
 
 
 
